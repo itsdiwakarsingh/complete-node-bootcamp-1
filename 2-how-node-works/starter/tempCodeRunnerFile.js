@@ -1,2 +1,1 @@
-
-  });
+test-module-1
