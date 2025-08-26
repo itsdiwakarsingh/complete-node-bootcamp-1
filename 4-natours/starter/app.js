@@ -22,7 +22,7 @@ app.get('/api/v1/tours', (req, res) => {
     results: tours.length,
     data: {
       tours,
-    },
+   },
   });
 });
 
@@ -41,7 +41,7 @@ app.get('/api/v1/tours/:id', (req, res) => {
   res.status(200).json({
     status: 'success',
     data: {
-      tour,
+      tour: '<updated tour here...>',
     },
     // results: tours.length,
     // data: {
